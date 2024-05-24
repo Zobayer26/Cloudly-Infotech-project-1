@@ -1,17 +1,108 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./output.css" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
     <title>Project one</title>
 </head>
 
 <body>
-    <h1 class="text-4xl text-center bg-red-700 font-bold underline">
-        Project one
-    </h1>
+    <!-- Header part start -->
+    <header>
+        <div class="bg-[#12062c] px-[60px] py-[14px] flex 
+        justify-between items-center text-white">
+            <h2>Welcome to It solutions & Services</h2>
+            <div class="hidden md:flex  gap-[60px]">
+                <div class=" flex gap-[30px]">
+                    <div class="flex items-center gap-[10px]">
+                        <i class="fa-solid fa-envelope text-[#ab32f2] "></i>
+                        <p>solution@cloudly.io</p>
+                    </div>
+                    <div class="flex items-center gap-[10px] ">
+                        <i class="fa-solid fa-location-pin text-[#ab32f2]"></i>
+                        <p>House #429 (2nd Floor), Road#30, Mohakhali DOHS</p>
+                    </div>
+                </div>
+                <div class="flex gap-[30px] items-center ">
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-pinterest"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+
+            <div onclick="" class=" block md:hidden">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+        </div>
+        <div class="hidden md:flex justify-between pl-[75px] py-[4px] items-center">
+            <div class="w-[75px] h-[68px]">
+                <img class="w-full object-cover" src="./images/logo.png" alt="Logo img" />
+            </div>
+            <div>
+                <ul class="flex items-center uppercase gap-[60px] ">
+                    <li class=" text-[#18072c]">Home </li>
+                    <li class=" text-[#797586]">ABOUT</li>
+                    <li class=" text-[#797586]">SERVICES</li>
+                    <li class=" text-[#797586]">PROJECTS</li>
+                    <li class=" text-[#797586]">BLOG</li>
+                    <li class=" text-[#797586]">CONTACT</li>
+                </ul>
+            </div>
+            <div class=" flex items-center gap-[30px]">
+                <i class="fa fa-search"></i>
+                <button class=" px-[60px] py-[18px] flex items-center
+                 bg-gradient-to-tr from-[#942ee1] to-[#732dea]">
+                    <div class="flex items-center gap-[30px]">
+                        <div class="w-[54px] h-[54px] bg-white  
+                    flex justify-center items-center
+                    rounded-full text-[#9c2ede]">
+                            <i class="fa-solid fa-phone-flip"></i>
+                        </div>
+                        <div class="uppercase text-white">
+                            <p>+88028711116</p>
+                            <p> call anytime</p>
+                        </div>
+                    </div>
+                </button>
+            </div>
+        </div>
+
+        <!-- <div  class="w-[400px] h-full bg-[#383838] md:hidden
+            absolute top-0 right-0  transition-all ease-in-out none
+            duration-500 px-[20px] py-[40px] flex flex-col gap-[40px]">
+
+            <div onclick="" class="cursor-pointer w-[30px] h-[30px]
+            flex justify-center items-center 
+            rounded-full hover:border ease-in-out duration-300 text-white">
+                <p>X</p>
+            </div>
+            <div class="flex-grow">
+                <ul class="flex flex-col gap-[30px] uppercase text-white">
+                    <li class=" cursor-pointer uppercase">Home </li>
+                    <li class=" cursor-pointer uppercase">ABOUT</li>
+                    <li class=" cursor-pointer uppercase">SERVICES</li>
+                    <li class=" cursor-pointer uppercase">PROJECTS</li>
+                    <li class=" cursor-pointer uppercase">BLOG</li>
+                    <li class=" cursor-pointer uppercase">CONTACT</li>
+                </ul>
+            </div>
+            <div class="flex gap-[30px] items-center text-[white] ">
+                <i class="fab fa-twitter cursor-pointer"></i>
+                <i class="fab fa-facebook cursor-pointer"></i>
+                <i class="fab fa-pinterest cursor-pointer"></i>
+                <i class="fab fa-instagram cursor-pointer"></i>
+            </div>
+        </div> -->
+
+    </header>
+    <!-- Header  part end  -->
+
+    <script src="./script.js"></script>
 </body>
 
 </html>
