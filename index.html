@@ -11,7 +11,6 @@
 </head>
 
 <body>
-
     <!-- Header part start -->
     <header>
         <div class="bg-[#12062c] px-[60px] py-[14px] flex 
@@ -77,7 +76,7 @@
         </div>
 
         <div id="sidebar" class="hidden">
-            <div class="max-w-[400px] w-full bg-[#383838] absolute top-0 right-0 
+            <div class="max-w-[400px] w-full bg-[#383838] absolute top-0 right-0 z-20
         h-screen px-[20px] py-[40px] flex flex-col gap-[40px] ">
                 <div onclick="hideSideBar()" class="cursor-pointer w-[30px] h-[30px] flex justify-center items-center
              rounded-full hover:border ease-in-out duration-300 text-white">
@@ -102,53 +101,43 @@
             </div>
         </div>
 
-    </header>
+    </header> 
 
     <!-- Header  part end  -->
 
     <!-- Hero part start  -->
 
     <section id="hero" class="mt-1 relative">
-        <div class=" relative">
-            <img src="./images/hero-slider.jpg" alt="" />
+        <div class="relative">
+            <img src="./images/hero-slider.jpg" alt="" class="w-full h-auto" />
             <div class="absolute top-0 left-0 z-10">
-                <img src="./images/hero-line.png" alt="hero-line img" />
+                <img src="./images/hero-line.png" alt="hero-line img" class="w-full h-auto" />
             </div>
-            <div class="absolute top-0 right-0  max-h-[100%] h-[60%] sm:h-[70%] md:h-[80%] lg:h-[85%] xl:h-[88%]">
+            <div class="absolute top-0 right-0 max-h-[100%] h-[60%] sm:h-[70%] md:h-[80%] lg:h-[85%] xl:h-[88%]">
                 <img src="./images/hero-shape-1.png" class="w-full h-full object-contain" alt="hero-shape-1 img" />
-                <div class=" absolute bottom-0 right-0 -translate-x-[10%]  -translate-y-[5%]">
+                <div class="absolute bottom-0 right-0 transform translate-x-[-10%] translate-y-[-5%]">
                     <img src="./images/hero-shape-2.png" alt="hero-shape-2 img" />
                 </div>
-                <div class="absolute top-0 right-0 ">
+                <div class="absolute top-0 right-0">
                     <img src="./images/hero-shape-3.png" alt="hero-shape-3 img" />
                 </div>
             </div>
         </div>
-        <div class=" absolute top-0 left-0 translate-x-[10%] translate-y-[20%]
-        xl:translate-x-[50%] xl:translate-y-[80%] 
-         max-w-[1140px] text-white">
-            <p class="text-[10px] lg:text-[20px] font-[400]">WELCOME TO BEST IT SOLUTIONS</p>
-            <h1 class="text-[24px] xl:text-[30px] leading-[30px] xl:leading-[80px] font-[700] w-[600px]"> Provide IT
-                Solutions and Services</h1>
-            <div class="w-[200px] cursor-pointer mt-[40px]">
-                <div class="bg-[#6a2dec]  uppercase w-[130px] xl:w-[200px]">
-                    <p class="px-[10px] py-[10px] xl:px-[45px] xl:py-[25px]"> Learn more</p>
+        <div class="absolute top-0 left-0 transform translate-x-[10%] translate-y-[20%] xl:translate-x-[50%] xl:translate-y-[80%] max-w-[1140px] text-white">
+            <p class="text-xs sm:text-sm lg:text-lg xl:text-xl font-[400]">WELCOME TO BEST IT SOLUTIONS</p>
+            <h1 class="text-lg sm:text-xl lg:text-2xl xl:text-3xl leading-[30px] lg:leading-[40px] xl:leading-[80px] font-[700] w-[300px] sm:w-[400px] lg:w-[600px]">Provide IT Solutions and Services</h1>
+            <div class="w-[130px] sm:w-[200px] cursor-pointer mt-[20px] sm:mt-[40px]">
+                <div class="bg-[#6a2dec] uppercase">
+                    <p class="px-[10px] py-[10px] xl:px-[45px] xl:py-[25px]">Learn more</p>
                 </div>
             </div>
-
-            <div class=" hidden xl:block absolute left-0  bottom-0 -translate-x-[70%] -translate-y-[150%] rotate-90 ">
-                <div class=" text-white tracking-[15px] rotate-180 text-[30px] opacity-10 ">
+            <div class="hidden xl:block absolute left-0 bottom-0 transform translate-x-[-70%] translate-y-[-150%] rotate-90">
+                <div class="text-white tracking-[15px] rotate-180 text-[30px] opacity-10">
                     TECHNOLOGY
                 </div>
             </div>
         </div>
-
-        <!-- 
-        <div class=" bg-[#0c0524] w-full h-full absolute top-0 left-0 opacity-10">
-        </div> -->
-
     </section>
-
     <!-- Hero  part end  -->
 
     <!-- About  part start  -->
@@ -410,8 +399,8 @@
 
     <!-- footer part start  -->
 
-    <footer class=" mt-[100px] text-white max-h-[535px] h-full bg-[url('./images/footer-bg.png')]">
-        <div class="max-w-[1140px] w-full mx-auto p-4">
+    <footer class=" mt-[100px] text-white min-h-[400px] h-full bg-[url('./images/footer-bg.png')] flex flex-col">
+        <div class="flex-grow max-w-[1140px] w-full flex justify-center  items-center mx-auto p-4">
             <div class="flex flex-wrap ">
                 <div class="w-full md:w-1/2 lg:w-1/4">
                     <p>
@@ -474,8 +463,6 @@
                 </div>
             </div>
         </div>
-        
-
         <div class=" text-center bg-[#0d0421] py-[10px]">
             © All rights reserved
         </div>
